@@ -1,0 +1,42 @@
+.topnav {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 25px 16px;
+}
+
+#myLinks a {
+  margin: 0px 15px;
+  font-family: rawline, helvetica, arial, sans-serif;
+  font-size: 13px;
+}
+
+.drop-menu {
+  display: flex;
+  flex-direction: column;
+  background-color: #0c326f;
+  height: 130px;
+  width: 170px;
+  margin-top: 20px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.drop {
+  display: flex;
+  align-items: center;
+}
+
+.drop p {
+  margin: 0px 10px;
+  font-family: rawline, helvetica, arial, sans-serif;
+  color: black;
+}
+
+#myLinks a {
+  margin-top: 20px;
+  color: #fff;
+}

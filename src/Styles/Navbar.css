@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logo span {
+  color: #0c326f;
+  font-family: rawline, helvetica, arial, sans-serif;
+  font-size: 12px;
+  width: 160px;
+  font-weight: bold;
+}
+
+.navbar .logo img {
+  margin: 0px 15px;
+}
+
+.content-navbar {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+}
+
+.content-navbar header {
+  width: 100%;
+  height: 80px;
+  margin: 30px;
+}
+
+.navbar .menu {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .menu li {
+  list-style: none;
+  margin: 0px 5px;
+  color: #0c326f;
+  font-size: 12px;
+  font-family: rawline, helvetica, arial, sans-serif;
+}
+
+.navbar .menu li button {
+  border: none;
+  height: 40px;
+  width: 100px;
+  color: #0c326f;
+  margin: 0px 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.navbar .menu li button #user {
+  margin: 0px 10px;
+}
+
+a {
+  text-decoration: none;
+}
+.navbar .menu li a:hover {
+  color: black;
+}
+
+.test {
+  background-color: #0c326f;
+  height: 100vh;
+  color: #fff;
+}
+
+.hh {
+  background-color: #fff;
+}

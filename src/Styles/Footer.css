@@ -1,0 +1,62 @@
+.rodape {
+  margin-top: 40px;
+  background-color: #071d41;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rodape .rodape-content {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sub-rodape {
+  background-color: #04132a;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: rawline, helvetica, arial, sans-serif;
+  font-size: 13px;
+}
+
+.sub-rodape p {
+  color: #ccc;
+}
+
+.sub-rodape a {
+  color: #fff;
+  margin: 0px 5px;
+}
+
+.rodape .redes-socias a {
+  color: #fff;
+  margin: 0px 15px;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.rodape-titulo {
+  margin-top: 40px;
+  color: #fff;
+  font-family: rawline, helvetica, arial, sans-serif;
+}
+
+.imagens {
+  display: flex;
+  align-items: center;
+  margin: 0px 80px;
+}
+.imagens .patria-amada-brasil {
+  object-fit: contain;
+  width: 100px;
+}
+
+.imagens .acesso-informacao {
+  object-fit: contain;
+  width: 100px;
+  margin: 0px 15px;
+}

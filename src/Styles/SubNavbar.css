@@ -1,0 +1,33 @@
+.sub-navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.sobre-pages {
+  width: 90%;
+  display: flex;
+  border-bottom: solid 1px rgb(219, 214, 214);
+}
+
+.sobre-pages .submenus {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.sobre-pages .submenus i {
+  margin: 0px 3px;
+  font-size: 13px;
+}
+
+.sobre-pages .submenus span {
+  margin: 0px 3px;
+  font-size: 13px;
+  font-family: rawline, helvetica, arial, sans-serif;
+  color: black;
+}
+
+.sobre-pages .submenus span:hover {
+  color: #0c326f;
+  cursor: pointer;
+}

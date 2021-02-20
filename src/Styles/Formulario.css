@@ -1,0 +1,183 @@
+.container-form {
+  display: flex;
+  justify-content: center;
+}
+
+.formulario {
+  width: 90%;
+  margin-top: 50px;
+}
+
+.formulario .content-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario .content-form {
+  margin-bottom: 20px;
+}
+.formulario .content-form h2 {
+  font-family: rawline, helvetica, arial, sans-serif;
+  font-weight: 500;
+  margin-bottom: 0px;
+  font-size: 18px;
+}
+
+.formulario .content-form p {
+  font-family: rawline, helvetica, arial, sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgb(179, 157, 157);
+}
+
+.formulario .content-form input {
+  border-radius: 7px;
+  border: solid 1px #0c326f;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  outline: none;
+  width: 120px;
+  margin: 0px 15px;
+  font-size: 11px;
+}
+
+.formulario .content-form .content-titulo {
+  display: flex;
+  align-items: center;
+}
+
+::-webkit-input-placeholder {
+  color: #0c326f;
+}
+
+#icon-question {
+  color: #0c326f;
+  font-size: 9px;
+  margin: 0px 9px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.buttons button:nth-child(1) {
+  width: 120px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: solid 1px #0c326f;
+  outline: none;
+  font-size: 11px;
+  color: #0c326f;
+}
+
+.buttons button:nth-child(2) {
+  width: 120px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: solid 1px #0c326f;
+  margin: 10px 20px;
+  color: #0c326f;
+  outline: none;
+  font-size: 11px;
+}
+
+.buttons button:hover {
+  background-color: #0c326f;
+  color: #fff;
+  cursor: pointer;
+}
+
+.enviar-dados {
+  border-top: solid 1px rgb(219, 214, 214);
+  padding: 40px;
+  border-bottom: solid 1px rgb(219, 214, 214);
+}
+
+.cancelar-enviar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cancelar-enviar button {
+  width: 160px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: solid 1px #0c326f;
+  color: #0c326f;
+  outline: none;
+}
+
+.cancelar-enviar button:hover {
+  cursor: pointer;
+  background-color: #0c326f;
+  color: #fff;
+}
+
+.cancelar-enviar p {
+  font-size: 16px;
+  color: #0c326f;
+  font-family: rawline, helvetica, arial, sans-serif;
+}
+
+.duvidas-usuario {
+  display: flex;
+  justify-content: space-between;
+}
+
+.duvidas-usuario .precisa-ajudar {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.duvidas-usuario .precisa-ajudar i {
+  margin: 0px 5px;
+}
+
+.duvidas-usuario .precisa-ajudar p {
+  font-family: rawline, helvetica, arial, sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: rgb(179, 157, 157);
+}
+
+.input-form {
+  margin: 10px -15px;
+}
+
+.input-form-elements {
+  display: flex;
+  align-items: center;
+  margin: 10px -15px;
+}
+
+.select {
+  width: 250px;
+  margin: 0px 15px;
+  border-radius: 5px;
+  border: solid 1px #0c326f;
+  color: #0c326f;
+  outline: none;
+  padding: 10px 8px;
+  font-size: 11px;
+}
+
+.finalizar {
+  background: #0c326f;
+  color: white;
+  font-size: 24px;
+  width: 328px;
+  text-align: center;
+  height: 46px;
+  padding: 16px;
+  font-weight: bold;
+  font-family: rawline, helvetica, arial, sans-serif;
+}
