@@ -20,7 +20,6 @@ function Formulario({ handleSubmit }) {
             <Input type="text" placeholder="Selecionar layout" />
           </div>
         </div>
-
         <div className="content-form">
           <Titulo titulo="Tipo de papel, orientação, largura e altura?" />
           <div className="input-form-elements">
@@ -30,7 +29,6 @@ function Formulario({ handleSubmit }) {
             <Input type="number" placeholder="290.000 mm" />
           </div>
         </div>
-
         <div className="content-form">
           <Titulo titulo="Margem esquerda, direita, superior e inferior?" />
           <div className="input-form-elements">
