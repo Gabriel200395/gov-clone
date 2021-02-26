@@ -16,7 +16,7 @@ function Drop() {
       </div>
       <div className="drop">
         <a href="#Dropmenu" className="icon" onClick={menu}>
-          <p>Imprensa Nacional</p>
+          <h4>Imprensa Nacional</h4>
           {open ? (
             <i style={{ fontSize: "25px" }} className="fa fa-bars"></i>
           ) : (
