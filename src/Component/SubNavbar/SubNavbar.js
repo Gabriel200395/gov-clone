@@ -1,5 +1,10 @@
 import "../../Styles/SubNavbar.css";
-function SubNavbar({ open }) {
+import { useContext } from "react";
+import { CreateContextGlobal } from "../../ContextGlobal/ContextGlobal";
+
+function SubNavbar() {
+  const { open } = useContext(CreateContextGlobal);
+
   return (
     <section className="sub-navbar">
       {open ? (
