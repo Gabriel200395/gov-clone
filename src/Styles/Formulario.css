@@ -35,14 +35,15 @@
 }
 
 .formulario .content-form input {
-  border-radius: 7px;
-  border: solid 1px #0c326f;
+  background: #ffffff;
+  border: 1px solid #888888;
+  box-sizing: border-box;
+  border-radius: 8px;
   padding: 10px 10px 10px 10px;
   text-align: center;
   outline: none;
-  width: 120px;
+  width: 160px;
   margin: 0px 15px;
-  font-size: 11px;
 }
 
 .formulario .content-form .content-titulo {
@@ -51,7 +52,11 @@
 }
 
 ::-webkit-input-placeholder {
-  color: #0c326f;
+  color: #555555;
+  font-family: Rawline;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
 }
 
 #icon-question {
@@ -162,11 +167,13 @@
 }
 
 .select {
+  background: #ffffff;
+  border: 1px solid #888888;
+  box-sizing: border-box;
+  border-radius: 8px;
+
   width: 250px;
   margin: 0px 15px;
-  border-radius: 5px;
-  border: solid 1px #0c326f;
-  color: #0c326f;
   outline: none;
   padding: 10px 8px;
   font-size: 11px;
