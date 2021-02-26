@@ -26,7 +26,7 @@ function Formulario() {
         </div>
 
         <div className="content-form">
-          <Titulo titulo="Tipo de papel, orientação, largura e altura?" />
+          <Titulo titulo="Tipo de papel, orientação, largura e altura" />
           <div className="input-form-elements">
             <Select option="papel padrão A4" />
             <Select option="orientação Retrato" />
@@ -36,7 +36,7 @@ function Formulario() {
         </div>
 
         <div className="content-form">
-          <Titulo titulo="Margem esquerda, direita, superior e inferior?" />
+          <Titulo titulo="Margem esquerda, direita, superior e inferior" />
           <div className="input-form-elements">
             <Input type="number" placeholder="14.000 mm" />
             <Input type="number" placeholder="14.000 mm" />
@@ -51,14 +51,14 @@ function Formulario() {
         </div>
 
         <div className="content-form">
-          <Titulo titulo="Quantidade previstas de páginas?" />
+          <Titulo titulo="Quantidade previstas de páginas" />
           <div className="input-form">
             <Input type="number" placeholder="150" />
           </div>
         </div>
 
         <div className="content-form">
-          <Titulo titulo="Quantidade de colunas por página e espaçamento entre colunas?" />
+          <Titulo titulo="Quantidade de colunas por página e espaçamento entre colunas" />
           <div className="input-form-elements">
             <Input type="number" placeholder="2" />
             <Input type="number" placeholder="2.500 mm" />
@@ -79,12 +79,12 @@ function Formulario() {
         </div>
 
         <div className="content-form">
-          <Titulo titulo="Será necessario o uso de sangrias" />
+          <Titulo titulo="Será necessario o uso de sangrias?" />
           <Button />
         </div>
 
         <div className="content-form">
-          <Titulo titulo="Sangria esquerda, direita, superior e inferior?" />
+          <Titulo titulo="Sangria esquerda, direita, superior e inferior" />
           <div className="input-form-elements">
             <Input type="number" placeholder="20.000 mm" />
             <Input type="number" placeholder="0.000 mm" />

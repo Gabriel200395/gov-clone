@@ -63,6 +63,7 @@
   color: #0c326f;
   font-size: 9px;
   margin: 0px 9px;
+  margin-top: 5px;
 }
 
 .buttons {
@@ -73,20 +74,22 @@
 .buttons button:nth-child(1) {
   width: 120px;
   height: 35px;
-  border-radius: 5px;
-  background-color: #fff;
-  border: solid 1px #0c326f;
+  border: 1px solid #1351b4;
+  box-sizing: border-box;
+  border-radius: 8px;
   outline: none;
   font-size: 11px;
+  background: #fff;
   color: #0c326f;
 }
 
 .buttons button:nth-child(2) {
   width: 120px;
   height: 35px;
-  border-radius: 5px;
-  background-color: #fff;
-  border: solid 1px #0c326f;
+  border: 1px solid #1351b4;
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 8px;
   margin: 10px 20px;
   color: #0c326f;
   outline: none;
@@ -94,7 +97,7 @@
 }
 
 .buttons button:hover {
-  background-color: #0c326f;
+  background-color: #1351b4;
   color: #fff;
   cursor: pointer;
 }
@@ -115,16 +118,16 @@
 .cancelar-enviar button {
   width: 160px;
   height: 35px;
-  border-radius: 5px;
   background-color: #fff;
-  border: solid 1px #0c326f;
-  color: #0c326f;
+  border-radius: 8px;
+  border: solid 1px #1351b4;
+  color: #1351b4;
   outline: none;
 }
 
 .cancelar-enviar button:hover {
   cursor: pointer;
-  background-color: #0c326f;
+  background: #1351b4;
   color: #fff;
 }
 
