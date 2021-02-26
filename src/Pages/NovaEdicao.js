@@ -4,30 +4,11 @@ import MenuNovaEdicao from "../Component/MenuNovaEdicao/MenuNovaEdicao";
 import Formulario from "../Component/Formulario/Formulario";
 import Footer from "../Component/Footer/Footer";
 import RevisaoFinalizacao from "../Pages/RevisaoFinalizacao";
-import { useState } from "react";
+import { useContext } from "react";
+import { CreateContextGlobal } from "../ContextGlobal/ContextGlobal";
 
 function NovaEdicao() {
-  const [page, setPage] = useState(true);
-  const [cor, setCor] = useState(false);
-  const [open, setOpen] = useState(true);
-
-  function mudarTema() {
-    setCor(!cor);
-  }
-
-  function mudancaPage() {
-    setPage(!page);
-    window.scrollTo(0, 0);
-  }
-
-  function handleSubmit(event) {
-    event.preventDefault();
-    mudancaPage();
-  }
-
-  function menu() {
-    setOpen(!open);
-  }
+  const { cor, page } = useContext(CreateContextGlobal);
 
   return (
     <div
@@ -37,14 +18,14 @@ function NovaEdicao() {
     >
       {page ? (
         <section>
-          <Navbar mudarTema={mudarTema} cor={cor} menu={menu} open={open} />
-          <SubNavbar open={open} />
+          <Navbar />
+          <SubNavbar />
           <MenuNovaEdicao />
-          <Formulario handleSubmit={handleSubmit} />
+          <Formulario />
           <Footer />
         </section>
       ) : (
-        <RevisaoFinalizacao mudancaPage={mudancaPage} />
+        <RevisaoFinalizacao />
       )}
     </div>
   );

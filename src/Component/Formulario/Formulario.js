@@ -4,8 +4,12 @@ import InformacaoUser from "../ElementsForm/InformacaoUser";
 import Input from "../ElementsForm/Input";
 import Select from "../ElementsForm/Select";
 import Titulo from "../ElementsForm/Titulo";
+import { useContext } from "react";
+import { CreateContextGlobal } from "../../ContextGlobal/ContextGlobal";
 
-function Formulario({ handleSubmit }) {
+function Formulario() {
+  const { handleSubmit } = useContext(CreateContextGlobal);
+
   return (
     <main className="container-form">
       <form className="formulario" onSubmit={handleSubmit}>

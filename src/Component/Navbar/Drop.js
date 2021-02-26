@@ -1,5 +1,10 @@
 import "../../Styles/Drop.css";
-function Drop({ open, menu }) {
+import { useContext } from "react";
+import { CreateContextGlobal } from "../../ContextGlobal/ContextGlobal";
+
+function Drop() {
+  const { open, menu } = useContext(CreateContextGlobal);
+
   return (
     <div className="topnav">
       <div id="myLinks" style={{ display: open ? "none" : "block" }}>

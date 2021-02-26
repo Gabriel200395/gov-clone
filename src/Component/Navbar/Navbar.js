@@ -1,7 +1,11 @@
 import "../../Styles/Navbar.css";
 import Drop from "./Drop";
+import { useContext } from "react";
+import { CreateContextGlobal } from "../../ContextGlobal/ContextGlobal";
 
-function Navbar({ mudarTema, cor, menu, open }) {
+function Navbar() {
+  const { mudarTema, cor } = useContext(CreateContextGlobal);
+
   return (
     <section className="content-navbar">
       <header>
@@ -62,7 +66,7 @@ function Navbar({ mudarTema, cor, menu, open }) {
           </ul>
         </nav>
         <div>
-          <Drop menu={menu} open={open} />
+          <Drop />
         </div>
       </header>
     </section>
