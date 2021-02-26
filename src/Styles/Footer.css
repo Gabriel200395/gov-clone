@@ -51,12 +51,18 @@
   margin: 0px 80px;
 }
 .imagens .patria-amada-brasil {
-  object-fit: contain;
-  width: 100px;
+  object-fit: cover;
+  width: 120px;
+  position: whatever;
+  background-repeat: no-repeat;
+
+  color: #fff;
 }
 
 .imagens .acesso-informacao {
-  object-fit: contain;
-  width: 100px;
+  object-fit: cover;
+  width: 150px;
+  height: 40px;
   margin: 0px 15px;
+  color: #fff;
 }

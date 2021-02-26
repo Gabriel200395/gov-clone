@@ -39,7 +39,7 @@ function Footer() {
           <a href="https://www.gov.br/pt-br" target="_blank">
             <img
               className="acesso-informacao"
-              src="./img/brasil.png"
+              src="./img/logo-patria.png"
               alt="brasil"
             />
           </a>
