@@ -16,11 +16,13 @@
 .formulario .content-form {
   margin-bottom: 20px;
 }
-.formulario .content-form h2 {
-  font-family: rawline, helvetica, arial, sans-serif;
-  font-weight: 500;
-  margin-bottom: 0px;
-  font-size: 18px;
+.formulario .content-form h4 {
+  font-family: Rawline;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24.19px;
+  line-height: 28px;
+  color: #333333;
 }
 
 .formulario .content-form p {
