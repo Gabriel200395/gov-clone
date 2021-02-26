@@ -14,11 +14,12 @@
 }
 
 .navbar .logo span {
-  color: #0c326f;
-  font-family: rawline, helvetica, arial, sans-serif;
-  font-size: 12px;
-  width: 160px;
-  font-weight: bold;
+  color: #9e9d9d;
+  font-family: Rawline;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .navbar .logo img {
@@ -43,11 +44,14 @@
 }
 
 .navbar .menu li {
+  font-family: Rawline;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
   list-style: none;
   margin: 0px 5px;
-  color: #0c326f;
-  font-size: 12px;
-  font-family: rawline, helvetica, arial, sans-serif;
+  color: #1351b4;
 }
 
 .navbar .menu li button {
