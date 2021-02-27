@@ -6,7 +6,7 @@ function Drop() {
   const { open, menu } = useContext(CreateContextGlobal);
 
   return (
-    <div className="topnav">
+    <div className="topnav container col-md-12">
       <div id="myLinks" style={{ display: open ? "none" : "block" }}>
         <div className="drop-menu">
           <a href="#">item 1</a>
@@ -15,14 +15,14 @@ function Drop() {
         </div>
       </div>
       <div className="drop">
-        <a href="#Dropmenu" className="icon" onClick={menu}>
-          <h4>Imprensa Nacional</h4>
+        <div className="icon" onClick={menu}>
           {open ? (
             <i style={{ fontSize: "25px" }} className="fa fa-bars"></i>
           ) : (
             <i style={{ fontSize: "25px" }} class="fas fa-times"></i>
           )}
-        </a>
+          <h4>Imprensa Nacional</h4>
+        </div>
       </div>
     </div>
   );

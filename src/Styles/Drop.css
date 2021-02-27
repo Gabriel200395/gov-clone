@@ -21,22 +21,20 @@
 
 .icon {
   display: flex;
-  flex-direction: row-reverse;
   align-items: center;
-}
-
-.drop {
-  display: flex;
-  align-items: center;
+  margin-left: 13px;
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 
 .drop h4 {
   font-family: Rawline;
   font-style: normal;
   font-weight: normal;
-  font-size: 24.19px;
+  font-size: 18px;
   line-height: 28px;
   color: #333333;
+  margin: 0px 10px;
 }
 
 #myLinks a {

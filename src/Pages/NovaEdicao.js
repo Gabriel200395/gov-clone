@@ -19,10 +19,10 @@ function NovaEdicao() {
       {page ? (
         <section>
           <Navbar />
-          <SubNavbar />
+          {/* <SubNavbar />
           <MenuNovaEdicao />
-          <Formulario />
-          <Footer />
+          <Formulario /> */}
+          {/* <Footer /> */}
         </section>
       ) : (
         <RevisaoFinalizacao />
